@@ -65,9 +65,9 @@ console.log(1 === '1');
 console.log(1 !== '1');
 
 // 논리 연산자
-console.log((1 === 1) && (1 === 0));
-console.log((1 === 1) || (1 === 0));
-console.log(!(1 ===1));
+console.log((1 === 1) && (1 === 0)); // and
+console.log((1 === 1) || (1 === 0)); // or
+console.log(!(1 === 1)); // not : convert result value to the other
 
 // 삼항 연산자
 // 조건식 ? 참일 경우 : 거짓일 경우 처리
