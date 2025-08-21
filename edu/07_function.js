@@ -44,7 +44,7 @@ const fnc7 = (a) => {
 function myChk(callback) {
   callback();
 }
-// 아래처럼 이름이 없는 함수를 익명함수라고 부른다 (단발성)
+// () => 부분부터 아래처럼 이름이 없는 함수를 익명함수라고 부른다 (단발성)
 // () => 부분은 'function () {}' 를 생략, console.log는 생략된 '{}' 안에 들어감.
 const test11 = () => console.log('콜백함수');
 myChk(test11);
