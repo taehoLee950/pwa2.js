@@ -15,7 +15,6 @@ switch(food) {
   default:
     foodKinds = '기타';
     break;
-
 }
 
 if(food ==='돈까스') {

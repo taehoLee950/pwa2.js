@@ -9,10 +9,10 @@ function fn1(a, b) {
 
 // argument : 함수를 호출할 때 전달 해주는 값
 // 1 -> a 로 들어감, 2 -> b로 들어감
-let resultFn1 = fn1(1, 2);
+let resultFn1 = fn1(a, b);
 console.log(resultFn1); 
 
-console.log(fn1(2, 3));
+console.log(fn1(1, 2));
 
 // 함수 선언식 : 호이스팅에 영향을 받는다.
 // 재할당이 가능하므로 함수명이 중복되지 않도록 조심해야된다.
