@@ -154,7 +154,7 @@ const arr10 = [1, 2, 3, 4, 5, 6];
     // * 음수로 시작하면 index 숫자가 아니고 숫자만큼 칸 이동을 한다
 // start와 count만 지정할 경우 (중간에 특정 요소만 빼고싶을때)
 const arr12 = [1, 2, 3, 4, 5];
-const resultSpliceCount = arr12.splice(2, 1); //splice('index#', 'numberOfElements to be deleted from the selected index#')
+const resultSpliceCount = arr12.splice(2, 1); //splice('index#', 'numberOfElements to be deleted starting from the selected index#')
 console.log (arr12, resultSpliceCount);
 //start, count, ...args 모두 전달할 경우
 const arr13 = [1, 2, 3, 4, 5];
