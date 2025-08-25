@@ -8,7 +8,7 @@ Math.ceil(double); // 1;
 Math.round(double); // 1;
 Math.floor(double); // 0;
 
-// random() : 0초과 1미만의 랜덤한 수를 반환
+// random() : 0 ~ 1미만의 랜덤한 수를 반환
 let randomDouble = Math.random();
 
 // abs(arg) : 절대값을 반환

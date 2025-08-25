@@ -199,6 +199,16 @@ console.log(printName2);
 //   { name: "지영", scores: [95, 88, 92] }
 // ];
 
+// [
+//   {
+//     name: '태호',
+//     scores: {
+//       korean: 80,
+//       math: 70,
+//     }
+//   }
+// ]
+
 // 요구사항
 // map()을 이용해서 각 학생의 이름과 평균 점수를 새 객체로 만든 배열을 만드세요.
 // 평균 = scores 배열의 총합 ÷ 길이
@@ -209,3 +219,4 @@ console.log(printName2);
 //   { name: "태호", avg: 90 },
 //   { name: "지영", avg: 91.666... }
 // ]
+
