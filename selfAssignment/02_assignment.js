@@ -56,7 +56,8 @@ const over20K = products.filter(price => price.price >= 2_0000)
 console.log(over20K);
 
 // 대문자 변환 및 오름차순
-const result = over20K.map(name => name.name.toUpperCase()).sort(); //toUpperCase는 배열 메써드가 아니라 안쪽에 속성값 불러오는데다가 사용해야하고, sort는 배열 메서드라 배열 반환값 저장되는 전체에 갖다 붙여도 사용이 가능했다.
+const result = over20K.map(name => name.name.toUpperCase()).sort(); //toUpperCase는 배열 메써드가 아니라 안쪽에 속성값 불러오는데다가 사용해야하고, 
+                                                                        // sort는 배열 메서드라 배열 반환값 저장되는 전체에 갖다 붙여도 사용이 가능했다.
 console.log(result);
 
 
