@@ -47,6 +47,7 @@ selectorTitle.innerHTML = '<span>이너로 넣었다.</span>';
 // setAttribute(속성명, 값) : 요소에 속성을 추가
 const inputEmail = document.querySelector('input'); 
 // <input type = 'text' placeholder = '이메일을 적어주세요'; 와 동일함. 
+const inputEmail = document.querySelector('input'); 
 inputEmail.setAttribute('placeholder', '이메일을 적어주세요');
 inputEmail.setAttribute('required', '');
 
@@ -70,3 +71,19 @@ p.classList.add('test2'); // test2 라는 클래스를 추가.
 p.classList.remove('test'); // test 라는 클래스를 제거, 남는건 위의 test2 클래스.
 p.classList.toggle('test3'); // 클래스 넣었다 뺐다 하기 (있으면 삭제, 없으면 만듬) *night-vision같네?
 
+// -------------
+// 새로운 요소 생성
+// -------------
+const newH1 = document.createElement('h1');
+newH1.textContent = '새로운 요소다';
+
+// 요소 삽입 : 부모 노드의 가장 마지막 자식 노드로 추가
+document.body.appendChild(newH1);
+
+// 요소 삽입: 부모 노드 자식 노드 중 특정 타겟 앞에 노드를 추가
+document.body.insertBefore('p');
+document.body.insertBefore(newH1, childP);
+
+// 요소 제거
+const form = document.querySelector('form');
+document.body.removeChild(form);
