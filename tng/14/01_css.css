@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.textBox {
+  margin-bottom: 10px;
+}
