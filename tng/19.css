@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+} */
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 8px;
+  padding: 10px;
+}
+
+.cardContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.loading {
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aquamarine;
+  color: purple;
+}
+
+.hidden {
+  display: none;
+}
